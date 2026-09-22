@@ -11,3 +11,21 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
 | `RunningProcs1` (`RunningProcs1.vbp`) | VB6 | WinForms exe | Enumerate processes and loaded modules |
+
+## How to open
+
+Open the `.vbp` in Visual Basic 6.0 IDE:
+- `RunningProcs1.vbp`
+
+## Requirements
+
+- Visual Basic 6.0 IDE
+- `psapi.dll` on Windows NT when enumerating process modules
+
+## Attribution and provenance
+
+Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Old/RunningProcs`. Original sample attribution: TheScarms.
+
+## License
+
+MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
